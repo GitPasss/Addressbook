@@ -71,7 +71,7 @@
                 <version>3.3.1</version>
             </plugin>
 
-            <!-- maven-compiler-plugin with Java 17 -->
+            <!-- maven-compiler-plugin with Java 17 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -80,11 +80,11 @@
                     <source>17</source>
                     <target>17</target>
                 </configuration>
-            </plugin>
+            </plugin>-->
 
             <!-- maven-compiler-plugin with Java 1.8 -->
             <!-- This plugin is redundant and can be removed or replaced with a specific version if necessary -->
-            <!-- <plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.2</version>
@@ -92,7 +92,7 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
-            </plugin> -->
+            </plugin> 
 
             <!-- jetty-maven-plugin -->
             <plugin>
